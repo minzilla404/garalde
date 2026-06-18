@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFF7E6;
+    color: #2743CB;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    max-width: 1280px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+
+.header-text h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #2743CB;
+    margin-bottom: 1.5rem;
+}
+
+.header-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2743CB;
+    line-height: 1.5;
+}
+
+.header-img{
+    width: 30rem;
+    max-width: 100%;
+    display: block;
+}
+
+.barrita{
+    background-color: #2743CB;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.datazo{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.numero{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #98C1FF;
+    /*Tal vez, para mi no*/
+    font-size: 7rem;
+}
+
+.texto{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #98C1FF;
+    /*Tal vez, para mi no*/
+    font-size: 2.5rem;
+    line-height: 1em;
+}
+
+.divisor{
+    font-size: 5rem;
+    font-weight: 150;
+    color: #98C1FF;
+    margin: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+   text-align: center;
+   margin-bottom: 2rem;
+   font-size: 3rem;
+}
+.sobre-mi{
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sobre-mi h2{
+    border-bottom: solid 1px #2743CB;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.iconitos{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff7e6;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 10px rgba(195, 187, 170, .5);
+    border: solid 1px rgba(240, 240, 240, 0.5);
+}
+
+.iconitos:hover{
+    transition: all ease .3s;
+    transform: scale(1.05);
+}
+.iconitos img{
+    width: 5rem;
+}
+.iconitos h3{
+font-size: 2rem;
+}
+.iconitos p{
+font-size: 1.5rem;
+}
+
+.entrenamiento{
+background-color: #feb6b7;
+position: relative;
+}
+
+.entrenamiento > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;   
+    max-width: 1280px;
+    padding: 1rem;
+    padding-top: 5rem;
+    margin:auto;
+}
+
+.entrenamiento h2{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+
+.entrenamiento p{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.entrenamiento img{
+    max-width: 600px;
+}
+
+.botoncito{
+    width: max-content;
+    max-width: 30rem;
+    display:block;
+    color:#FFF7E6;
+    padding:.5rem 1rem;
+    border-color: #FFF7E6;
+    border: 2px solid #FFF7E6;
+    text-decoration:none;
+    font-weight:700;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+}
+.slick-prev:before {
+    position: absolute!important;
+    font-size: 40px!important;
+}
+.slick-next:before {
+    position: absolute!important;
+    font-size: 40px!important;
+}
+.slick-next{
+    right: 2rem!important;
+}
+.slick-prev{
+    left: 2rem!important;
+}
+.slick-dots{
+    bottom: -40px!important;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.preguntas{
+    background-color: #5268d5;
+    background-image: url(../assets/img/fondito.png);
+    background-size: 6rem;
+}
+.preguntas h2{
+    color:white;
+}
+.preguntas details{
+    background: white;
+    max-width: 1024px;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.preguntas details summary{
+    
+    font-size: 2rem;
+    font-weight: 700;
+}
+.preguntas details p{
+    margin: 1rem;
+padding-top: 1rem;
+    font-size: 1.5rem;
+    
+    border-top: solid 1px;
+}
+.fotitos{
+    display: flex;
+}
+
+.fotitos img {
+    max-width: 20rem;
+}
+.slick-slide{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+.sponsors{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sponsors img{
+    width: 150px;
+    padding: 15px;   
+}
+
+footer{
+    background: #2743cb;
+}
+
+footer h2{
+    padding-top: 3rem;
+    color:white;
+}
+
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    margin: auto;
+    gap: 2rem;
+}
+
+footer section div{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:.5rem;
+}
+footer section div img{
+    width: 2rem;
+    display: block;
+}
+footer section div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
